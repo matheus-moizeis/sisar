@@ -7,11 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <None Include="..\..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sisar.Core\Sisar.Core.csproj" />
+    <ProjectReference Include="..\Sisar.Domain\Sisar.Domain.csproj" />
+    <ProjectReference Include="..\Sisar.Infra\Sisar.Infra.csproj" />
+    <ProjectReference Include="..\Sisar.Service\Sisar.Service.csproj" />
   </ItemGroup>
 
 </Project>
