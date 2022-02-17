@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisar.API", "src\Sisar.API\Sisar.API.csproj", "{DB03A87F-7203-479D-B082-E46C6C6DD619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sisar.API", "src\Sisar.API\Sisar.API.csproj", "{DB03A87F-7203-479D-B082-E46C6C6DD619}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Sisar.API", "1 - Sisar.API", "{41E63099-6799-4BD9-A001-7A6FE564C952}"
 EndProject
@@ -15,13 +15,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Sisar.Infra", "4 - Sisa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Sisar.Core", "5 - Sisar.Core", "{2664C26A-1B80-400C-B440-F67B56A61C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisar.Domain", "src\Sisar.Domain\Sisar.Domain.csproj", "{38C90133-D471-463E-A1C3-1677CAE73E00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sisar.Domain", "src\Sisar.Domain\Sisar.Domain.csproj", "{38C90133-D471-463E-A1C3-1677CAE73E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisar.Service", "src\Sisar.Service\Sisar.Service.csproj", "{9713922D-F47E-48BB-8320-C4C5219DC438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sisar.Service", "src\Sisar.Service\Sisar.Service.csproj", "{9713922D-F47E-48BB-8320-C4C5219DC438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisar.Infra", "src\Sisar.Infra\Sisar.Infra.csproj", "{15F7994A-8D26-44D4-B8F0-4682B43EB018}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sisar.Infra", "src\Sisar.Infra\Sisar.Infra.csproj", "{15F7994A-8D26-44D4-B8F0-4682B43EB018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sisar.Core", "src\Sisar.Core\Sisar.Core.csproj", "{F7683D34-4CC8-44B3-8D4B-495222F987B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sisar.Core", "src\Sisar.Core\Sisar.Core.csproj", "{F7683D34-4CC8-44B3-8D4B-495222F987B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31425987-A779-442F-9646-1644BBEF80B7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

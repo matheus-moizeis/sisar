@@ -1,17 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>9b977084-4cc1-4eab-9f1e-219bde174eeb</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <None Include="..\..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sisar.Core\Sisar.Core.csproj" />
+    <ProjectReference Include="..\Sisar.Domain\Sisar.Domain.csproj" />
+    <ProjectReference Include="..\Sisar.Infra\Sisar.Infra.csproj" />
+    <ProjectReference Include="..\Sisar.Service\Sisar.Service.csproj" />
   </ItemGroup>
 
 </Project>
